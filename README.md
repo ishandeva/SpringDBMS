@@ -1,2 +1,1 @@
-# SpringDBMS
-Panchaved project
+# Panchved Project
