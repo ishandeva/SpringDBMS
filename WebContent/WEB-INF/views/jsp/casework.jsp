@@ -34,7 +34,7 @@
                         </form>
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">REPORT:</h4><textarea id="report" style="width: 891px;height: 215px;"></textarea></div><button class="btn btn-primary" type="button">Submit</button></div>
+                                <h4 class="card-title">REPORT:</h4><textarea id="report" style="width: 891px;height: 215px;"></textarea></div><button class="btn btn-primary" id="submitB" type="button">Submit</button></div>
                     </div>
                 </div>
             </div>
