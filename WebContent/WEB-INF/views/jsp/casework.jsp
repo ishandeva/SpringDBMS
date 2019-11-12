@@ -23,16 +23,32 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">CASE-WORK</h4>
-                        <form>
-                            <div class="form-group"><label>Patient ID:</label><input class="form-control" type="text" id="field1"></div>
-                            <div class="form-group"><label>C/O:</label><input class="form-control" type="text" id="field2"></div>
-                            <div class="form-group"><label>H/O:</label><input class="form-control" type="text" id="field3"></div>
-                            <div class="form-group"><label>Physical Findings:</label><input class="form-control" type="text" id="field4"></div>
-                            <div class="form-group"><label>O/E:</label><input class="form-control" type="text" id="field5"></div>
-                            <div class="form-group"><label>CNS-RS-NAD P/A:</label><input class="form-control" type="text" id="field6"></div>
-                            <div class="form-group"><label>INVESTIGATIONS:</label><input class="form-control" type="text" id="field7"></div>
-                        </form>
                         <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="card-group">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title">CURRENT</h4>
+                                                <form>
+                                                    <div class="form-group"><label>Patient ID:</label><input class="form-control" type="text" id="field1"></div>
+                                                    <div class="form-group"><label>C/O:</label><input class="form-control" type="text" id="field2"></div>
+                                                    <div class="form-group"><label>H/O:</label><input class="form-control" type="text" id="field3"></div>
+                                                    <div class="form-group"><label>Physical Findings:</label><input class="form-control" type="text" id="field4"></div>
+                                                    <div class="form-group"><label>O/E:</label><input class="form-control" type="text" id="field5"></div>
+                                                    <div class="form-group"><label>CNS-RS-NAD P/A:</label><input class="form-control" type="text" id="field6"></div>
+                                                    <div class="form-group"><label>INVESTIGATIONS:</label><input class="form-control" type="text" id="field7"></div>
+                                                </form>
+                                                <div class="card"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title">HISTORY</h4><textarea rows="25" cols="58"></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">REPORT:</h4><textarea id="report" style="width: 891px;height: 215px;"></textarea></div><button class="btn btn-primary" id="submitB" type="button">Submit</button></div>
                     </div>
@@ -43,7 +59,8 @@
                     <div class="text-center my-auto copyright"><span>Copyright © Panch-Karm Clinic 2019</span></div>
                 </div>
             </footer>
-        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
