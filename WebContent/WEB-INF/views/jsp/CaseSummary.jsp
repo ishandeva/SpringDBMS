@@ -22,7 +22,7 @@
             <div class="container-fluid d-flex flex-column p-0">
                 <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
                     <div class="sidebar-brand-icon rotate-n-15"></div>
-                    <div class="sidebar-brand-text mx-3"><span>Panch-Karm Clinic</span></div>
+                    <div class="sidebar-brand-text mx-3"></div>
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
@@ -34,7 +34,19 @@
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <div class="container-fluid">
-                    <h3 class="text-dark mb-4">Reciept of Medical Bill</h3>
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="assets/img/Logo.png" width="160" height="160"></div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <p style="font-size: 19px;"><br>Dr. Neha N. Wachasundar<br><strong>B.A.M.S. (Ayurvedacharya)</strong><br>Regd. No. I-24601-A-1<br><strong>Email: </strong><a href="mailto:panchaved1990@gmail.com">panchaved1990@gmail.com</a><br><br></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p style="font-size: 19px;margin: 20px;"><br>Dr. Nachiket P. Wachasundar<br><strong>M.D. (Ayurvedic Medicine)</strong><br>Regd. No. I-21031-A-1<br><strong>Contact</strong>: - 9404299613 / 9422039353<br><br></p>
+                        </div>
+                    </div>
                     <div class="row mb-3">
                         <div class="col-lg-4">
                             <div class="card mb-3">
@@ -114,6 +126,12 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="card shadow mb-3">
+                                        <div class="card-body">
+                                            <div class="col">
+                                                <div class="form-group"></div>
+                                                <div class="form-group"></div>
+                                            </div>
+                                        </div>
                                         <div class="card-body">
                                             <form>
                                                 <div class="form-row">

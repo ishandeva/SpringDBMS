@@ -33,21 +33,19 @@
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
-                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
-                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
-                        <ul class="nav navbar-nav flex-nowrap ml-auto">
-                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu" aria-labelledby="searchDropdown">
-                                    <form class="form-inline mr-auto navbar-search w-100">
-                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="assets/img/Logo.png" width="160" height="160"></div>
                     </div>
-                </nav>
+                    <div class="card">
+                        <div class="card-body">
+                            <p style="font-size: 19px;"><br>Dr. Neha N. Wachasundar<br><strong>B.A.M.S. (Ayurvedacharya)</strong><br>Regd. No. I-24601-A-1<br><strong>Email: </strong><a href="mailto:panchaved1990@gmail.com">panchaved1990@gmail.com</a><br><br></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p style="font-size: 19px;margin: 20px;"><br>Dr. Nachiket P. Wachasundar<br><strong>M.D. (Ayurvedic Medicine)</strong><br>Regd. No. I-21031-A-1<br><strong>Contact</strong>: - 9404299613 / 9422039353<br><br></p>
+                    </div>
+                </div>
                 <div class="container-fluid">
                     <h3 class="text-dark mb-4">Reciept of Medical Bill</h3>
                     <div class="row">
